@@ -7,14 +7,14 @@
 
 header {
     background-color: #0381D8;
-    padding: 1% 10%;
-    height: 120px;
+    padding: 1% 5%;
+    height: 110px;
     /*    margin-bottom: 5px;*/
 }
 
 #logo-wrap {
     display: inline-block;
-/*    border: .1px solid;*/
+    /*    border: .1px solid;*/
 }
 
 #logo {
@@ -30,9 +30,9 @@ h1 {
     display: inline-block;
     margin: 5px 10px;
     clear: right;
-    font-weight:bold;
+    font-weight: bold;
     font-family: sans-serif;
-/*    font-size: 25px;*/
+    /*    font-size: 25px;*/
     /*    border: .5px solid;*/
 }
 
@@ -46,9 +46,10 @@ img {
 
 input[type="search"] {
     float: right;
-    margin-top: 10px;
+    margin-top: 6px;
     border-radius: 5px;
-
+    height: 28px;
+    text-align: right;
 }
 
 
@@ -61,35 +62,38 @@ small {
 
 nav#menu-bar {
     background-color: #0381D8;
-    height: 40px;
+    height: 30px;
     border-top: 1px solid white;
-/*    box-shadow: 0px -0px 5px white;*/
+/*        box-shadow: 0px -0px 5px white;*/
     margin-top: .5%;
     padding: .5% 0%;
 }
 
+/*
 nav#menu-bar ul {
     background-color: darkcyan;
     padding: 0px;
     margin: 0px;
 }
+*/
 
 nav#menu-bar ul li {
-    background-color: limegreen;
+    background-color: #26C6DA;
     display: inline-block;
     float: left;
-    margin: 0px 0px;
-    padding: 11px 10px;
-
+    margin: 6px 1px;
+    padding: 5px 10px;
+    border-radius: 10px 30px;
+    box-shadow: 2px 2px 5px #43617D;
 }
 
 nav#menu-bar ul li a {
-    text-decoration: overline;
+    text-decoration: none;
     color: white;
 }
 
 div#content-wrapper {
-    width: 80%;
+    width: 86%;
     margin: 5px auto;
 }
 
@@ -102,52 +106,77 @@ main {
 }
 
 aside {
-    background-color: #00BFA5;
+    background-color: #03A9F4;
     width: 30%;
     float: left;
     padding: 1.5%;
 
 }
 
-aside div#sidebar-right {
+/*aside div#sidebar-right {
     height: 35px;
-    background-color: seagreen;
+    background-color: #0161A6;
     margin-bottom: 5px;
     padding: 1%;
-}
+    text-align: center;
+    color: white;
+    
+}*/
 
 nav#tabs-widget {
     height: 25px;
-    background-color: dimgrey;
+/*    background-color: dimgrey;*/
     margin-bottom: 5px;
 }
 
 nav#tabs-widget ul {}
 
 nav#tabs-widget ul li {
-    background-color: grey;
+    background-color: #0161A6;
     color: white;
     display: inline-block;
-    margin: 0px px;
+    margin: 0px 0px;
     padding: 3.5px 10px;
 
 }
 
 nav#tabs-widget ul li a {
-    text-decoration: overline;
+    text-decoration: none;
     color: white;
 }
 
 ul#items {
-    background-color: skyblue;
+/*    background-color: skyblue;*/t 
+    color: white;
 }
 
 ul#items div.item-content {
-    border: solid;
+    border-top: 1px dashed;
+    padding: 10px 5px;
+}
+
+ul#items div.item-content a {
+    text-decoration: none;
 }
 
 footer {
     background-color: #0091EA;
     clear: both;
-    text-align: center;
+    padding: 2% 7%; 
+}
+
+footer #text-left-footer {
+    display: inline-block;
+}
+footer #text-right-footer {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+}
+
+footer #text-right-footer ul li{
+    display: inline;
+}
+footer #text-right-footer ul li a {
+    text-decoration: none;
 }
