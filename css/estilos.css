@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+header {
+    background-color: #0381D8;
+    padding: 1% 10%;
+    height: 120px;
+    /*    margin-bottom: 5px;*/
+}
+
+#logo-wrap {
+    display: inline-block;
+/*    border: .1px solid;*/
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin: 5px 0px;
+    float: left;
+    border: 0.5px solid;
+}
+
+h1 {
+    color: #F5AC21;
+    display: inline-block;
+    margin: 5px 10px;
+    clear: right;
+    font-weight:bold;
+    font-family: sans-serif;
+/*    font-size: 25px;*/
+    /*    border: .5px solid;*/
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin: 0px .2%;
+    margin-top: 1%;
+}
+
+input[type="search"] {
+    float: right;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+
+small {
+    color: #ffffff;
+    display: block;
+    margin: 0px 60px;
+    /*    border: 1px solid;*/
+}
+
+nav#menu-bar {
+    background-color: #0381D8;
+    height: 40px;
+    border-top: 1px solid white;
+/*    box-shadow: 0px -0px 5px white;*/
+    margin-top: .5%;
+    padding: .5% 0%;
+}
+
+nav#menu-bar ul {
+    background-color: darkcyan;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav#menu-bar ul li {
+    background-color: limegreen;
+    display: inline-block;
+    float: left;
+    margin: 0px 0px;
+    padding: 11px 10px;
+
+}
+
+nav#menu-bar ul li a {
+    text-decoration: overline;
+    color: white;
+}
+
+div#content-wrapper {
+    width: 80%;
+    margin: 5px auto;
+}
+
+main {
+    background-color: #F4F4F4;
+    clear: left;
+    float: left;
+    padding: 1.5%;
+    width: 64%;
+}
+
+aside {
+    background-color: #00BFA5;
+    width: 30%;
+    float: left;
+    padding: 1.5%;
+
+}
+
+aside div#sidebar-right {
+    height: 35px;
+    background-color: seagreen;
+    margin-bottom: 5px;
+    padding: 1%;
+}
+
+nav#tabs-widget {
+    height: 25px;
+    background-color: dimgrey;
+    margin-bottom: 5px;
+}
+
+nav#tabs-widget ul {}
+
+nav#tabs-widget ul li {
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    margin: 0px px;
+    padding: 3.5px 10px;
+
+}
+
+nav#tabs-widget ul li a {
+    text-decoration: overline;
+    color: white;
+}
+
+ul#items {
+    background-color: skyblue;
+}
+
+ul#items div.item-content {
+    border: solid;
+}
+
+footer {
+    background-color: #0091EA;
+    clear: both;
+    text-align: center;
+}
