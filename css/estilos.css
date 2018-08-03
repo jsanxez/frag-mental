@@ -105,6 +105,14 @@ main {
     width: 64%;
 }
 
+article {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 aside {
     background-color: #03A9F4;
     width: 30%;
