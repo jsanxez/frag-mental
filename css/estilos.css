@@ -110,6 +110,13 @@ article {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+article h2 {
+        color: #2D3244;
+}
+
+article p {
+    color: #425F7A;
+}
 
 aside {
     background-color: #518BA7;
@@ -160,6 +167,7 @@ ul#items {
 ul#items div.item-content {
     border-top: 1px dashed;
     padding: 10px 5px;
+    color: #ADD3D9;
 }
 
 ul#items div.item-content a {
