@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: #0381D8;
+    background-color: #518BA7;
     padding: 1% 5%;
     height: 110px;
     /*    margin-bottom: 5px;*/
@@ -61,10 +61,8 @@ small {
 }
 
 nav#menu-bar {
-    background-color: #0381D8;
     height: 30px;
     border-top: 1px solid white;
-/*        box-shadow: 0px -0px 5px white;*/
     margin-top: .5%;
     padding: .5% 0%;
 }
@@ -114,7 +112,7 @@ article {
 }
 
 aside {
-    background-color: #03A9F4;
+    background-color: #518BA7;
     width: 30%;
     float: left;
     padding: 1.5%;
@@ -167,12 +165,6 @@ ul#items div.item-content a {
     text-decoration: none;
 }
 
-footer {
-    background-color: #0091EA;
-    clear: both;
-    padding: 2% 7%; 
-}
-
 footer #text-left-footer {
     display: inline-block;
 }
@@ -187,4 +179,10 @@ footer #text-right-footer ul li{
 }
 footer #text-right-footer ul li a {
     text-decoration: none;
+}
+
+footer {
+    background-color: #518BA7;
+    clear: both;
+    padding: 2% 7%; 
 }
