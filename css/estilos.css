@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -36,7 +36,7 @@ h1 {
     /*    border: .5px solid;*/
 }
 
-img {
+header .social-networks {
     width: 40px;
     height: 40px;
     float: right;
@@ -110,13 +110,45 @@ article {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.meta-wrapper {
+/*    border: 1px solid;*/
+    margin: 10px 0px 10px 0px;
+}
+.meta-date, .meta-categories, .meta-comments {
+    color: #0e84af;
+    border-right: 1px dotted;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
 article h2 {
         color: #2D3244;
 }
 
 article p {
     color: #425F7A;
+/*    border: 2px dashed;*/
 }
+/*article div.text-content {
+    border: 2px dashed #000FFF;
+    padding: 10px;
+}*/
+
+article .image-content {
+    border: .5px solid #f23a3a;
+    width: 20%;
+    float: left;
+    padding: 2px;
+    margin-right: 10px;
+}
+.share-buttons-wrapper {
+/*    border: 3px dotted;*/
+    margin-top: 10px;
+}
+.share-buttons-wrapper .share-buttons {
+    width: 2%;
+}
+
 
 aside {
     background-color: #518BA7;
