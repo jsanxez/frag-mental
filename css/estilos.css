@@ -1,4 +1,4 @@
-    * {
+* {
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -104,17 +104,21 @@ main {
 }
 
 article {
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+/*    border-top: 1px solid;*/
+    border-bottom: 1px dashed;
     margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .meta-wrapper {
-/*    border: 1px solid;*/
+    /*    border: 1px solid;*/
     margin: 10px 0px 10px 0px;
 }
-.meta-date, .meta-categories, .meta-comments {
+
+.meta-date,
+.meta-categories,
+.meta-comments {
     color: #0e84af;
     border-right: 1px dotted;
     padding-right: 10px;
@@ -122,17 +126,13 @@ article {
 }
 
 article h2 {
-        color: #2D3244;
+    color: #2D3244;
 }
 
 article p {
     color: #425F7A;
-/*    border: 2px dashed;*/
+    /*    border: 2px dashed;*/
 }
-/*article div.text-content {
-    border: 2px dashed #000FFF;
-    padding: 10px;
-}*/
 
 article .image-content {
     border: .5px solid #f23a3a;
@@ -141,14 +141,36 @@ article .image-content {
     padding: 2px;
     margin-right: 10px;
 }
+
 .share-buttons-wrapper {
-/*    border: 3px dotted;*/
-    margin-top: 10px;
-}
-.share-buttons-wrapper .share-buttons {
-    width: 2%;
+/*    overflow: hidden;*/
+    width: 110px;
+    height: 20px;
+    float: left;
+    padding: 5px 0px;
+    
+
 }
 
+.share-buttons-wrapper .share-buttons {
+    width: 15px;
+    display: inline-block;
+}
+
+article .readmore{
+    background-color: #d6cdcd;
+    border-radius: 2px;
+    display: inline-block;
+    float: right;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #425F7A;
+    margin-top: 5px;
+}
+article .readmore:hover {
+    background-color: #4589A3;
+    color: white;
+}
 
 aside {
     background-color: #518BA7;
@@ -171,7 +193,7 @@ aside {
 
 nav#tabs-widget {
     height: 25px;
-/*    background-color: dimgrey;*/
+    /*    background-color: dimgrey;*/
     margin-bottom: 5px;
 }
 
@@ -192,8 +214,8 @@ nav#tabs-widget ul li a {
 }
 
 ul#items {
-/*    background-color: skyblue;*/t 
-    color: white;
+    /*    background-color: skyblue;*/
+    t color: white;
 }
 
 ul#items div.item-content {
@@ -209,15 +231,17 @@ ul#items div.item-content a {
 footer #text-left-footer {
     display: inline-block;
 }
+
 footer #text-right-footer {
     display: inline-block;
     float: right;
     margin-top: 10px;
 }
 
-footer #text-right-footer ul li{
+footer #text-right-footer ul li {
     display: inline;
 }
+
 footer #text-right-footer ul li a {
     text-decoration: none;
 }
@@ -225,5 +249,5 @@ footer #text-right-footer ul li a {
 footer {
     background-color: #518BA7;
     clear: both;
-    padding: 2% 7%; 
+    padding: 2% 7%;
 }
