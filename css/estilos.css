@@ -47,7 +47,7 @@ header .social-networks {
 input[type="search"] {
     float: right;
     margin-top: 6px;
-    border-radius: 5px;
+    border-radius: 2px;
     height: 28px;
     text-align: right;
 }
@@ -76,13 +76,13 @@ nav#menu-bar ul {
 */
 
 nav#menu-bar ul li {
-    background-color: #26C6DA;
+    background-color: #519eba;
     display: inline-block;
     float: left;
     margin: 6px 1px;
     padding: 5px 10px;
-    border-radius: 10px 30px;
-    box-shadow: 2px 2px 5px #43617D;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #43617D;
 }
 
 nav#menu-bar ul li a {
@@ -200,12 +200,13 @@ nav#tabs-widget {
 nav#tabs-widget ul {}
 
 nav#tabs-widget ul li {
-    background-color: #0161A6;
+    background-color: #519eba;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #43617D;
     color: white;
     display: inline-block;
     margin: 0px 0px;
     padding: 3.5px 10px;
-
 }
 
 nav#tabs-widget ul li a {
