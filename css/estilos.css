@@ -14,7 +14,7 @@ header {
 
 #logo-wrap {
     display: inline-block;
-/*    border: .1px solid;*/
+    /*    border: .1px solid;*/
 }
 
 #logo {
@@ -25,16 +25,18 @@ header {
     border: 0.5px solid;
 }
 
-h1 {
+h1 a {
     color: #F5AC21;
     display: inline-block;
     margin: 5px 10px;
     clear: right;
     font-weight: bold;
     font-family: sans-serif;
+    text-decoration: none;
     /*    font-size: 25px;*/
     /*    border: .5px solid;*/
 }
+
 
 small {
     color: #ffffff;
@@ -44,14 +46,14 @@ small {
 }
 
 header #social-networks-wrapper {
-/*    border: 1px solid;*/
+    /*    border: 1px solid;*/
     float: right;
     margin-top: 1%;
 }
 
 header .social-networks {
     width: 40px;
-        float: right;
+    float: right;
     margin-left: 5px;
 }
 
